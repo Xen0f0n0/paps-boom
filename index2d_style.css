@@ -1,0 +1,88 @@
+*{
+    margin:10;
+    padding:0;
+ }
+ 
+ .banner{
+    background:maroon;
+    width:100vw;
+    height:100vh;
+    position:relative;
+ 
+ }
+ 
+ .image{
+    height:100%;
+    width:100%;
+ 
+    margin:auto 0;
+    border: 3px solid black;
+    background:url('./images/index_boom_schermform3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position:absolute;
+    
+ }
+ .btn{
+   background: red;
+   position: absolute;
+   width:50px;
+   height: 40px;
+   border: 3px solid black;
+   border-radius: 20%;
+   left:5%;
+   top:5%;
+   opacity: 0.5;
+
+ }
+
+ #img{
+   background:url(./images/sjab_D10.png);
+   background-size: cover;
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   left:80%;
+   top:10%;
+   border-radius:50%;
+
+
+ }
+
+ #text{
+   background:green;
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   left:80%;
+   top:40%;
+
+ }
+ #A1{
+  left:20px;
+  top:100px;
+}
+ #B2{
+  left:20px;
+  top:160px;
+ }
+ #B3{};
+ #B4{};
+ #C5{};
+ #C6{};
+ #C7{};
+ #D8{};
+ #D9{};
+ #D10{};
+ #E11{};
+ #E12{};
+ #E13{};
+ #F14{};
+ #F15{};
+ #G16{};
+ #H17{};
+ #H18{};
+ #I19{};
+ #I20{};
+ #J21{};
+ #K22{};

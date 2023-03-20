@@ -1,0 +1,18 @@
+
+.b2a{
+    background: url(images/pap_boom_B2a.jpg);
+    background-size: cover;
+    height:400px;
+    width:400px;
+    margin:40px;
+    border-radius: 50%;
+}
+
+.b2b{
+    background: url(images/pap_boom_B2b.png);
+    background-size: cover;
+    height:400px;
+    width:400px;
+    margin:40px;
+    border-radius: 50%;
+}

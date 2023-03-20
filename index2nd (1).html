@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index2d_style.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="banner">
+        <div class="image"></div>
+        
+        <button class=" btn" id="A1"></button>
+        <button class=" btn" id="B2"></button>
+        <button class=" btn" id="B3"></button>
+        <button class=" btn" id="B4"></button>
+        
+        <button class=" btn" id="C5"></button>
+        <button class=" btn" id="C6"></button>
+        <button class=" btn" id="C7"></button>
+        <button class=" btn" id="D8"></button>
+        <button class=" btn" id="D9"></button>
+        <button class=" btn" id="D10"></button>
+        <button class=" btn" id="E11"></button>
+        <button class=" btn" id="E12"></button>
+        <button class=" btn" id="E13"></button>
+        <button class=" btn" id="F14"></button>
+        <button class=" btn" id="F15"></button>
+        <button class=" btn" id="G16"></button>
+        <button class=" btn" id="H17"></button>
+        <button class=" btn" id="H18"></button>
+        <button class=" btn" id="I19"></button>
+        <button class=" btn" id="I20"></button>
+        <button class=" btn" id="J21"></button>
+        <button class=" btn" id="K22"></button>
+       
+        
+
+
+        <!-- <div class=" sjab B2"></div> 
+         <div class=" sjab B3"></div>
+        <div class=" sjab B4"></div>
+        <div class=" sjab C5"></div>
+        <div class=" sjab C6"></div>
+        <div class=" sjab C7"></div>
+        <div class=" sjab D8"></div>
+        <div class=" sjab D9"></div>
+        <div class=" sjab D10"></div>
+        <div class=" sjab E11"></div>
+        <div class="sjab E12"></div>
+        <div class=" sjab E13"></div>
+        <div class=" sjab F14"></div>
+        <div class=" sjab F15"></div>
+        <div class=" sjab G16"></div>
+        <div class=" sjab H17"></div>
+        <div class=" sjab H18"></div>
+        <div class=" sjab I19"></div>
+        <div class=" sjab I20"></div>
+        <div class=" sjab J21"></div>
+        <div class=" sjab K22"></div>-->
+        <div id="img">hello</div>
+        <div id="text">this is a text</div>
+    </div>
+    <script>
+        const pictures=["url('./images/sjab_A1.png')","url('./images/sjab_B2.png')"," url('./images/sjab_B3.png')"];
+
+         const texts=["15 Augustus 1947, Egmond aan Zee, Jan Stam wordt geboren." 
+    /* ,
+        “1947, deNoordzee. De familie Stam scheept in aan boord van de ‘Oranje’, bestemming:Tasmanie.”,
+        De trotse eigenaar van zijn eigen schapenranch. John Stam, hier met zijn drie zonen: Biff, Brad en Brisbaine.”
+        “2001, Sydney. Als vertegenwoordiger van de Hollandse gemeente ontmoet John de koningin op staatsbezoek.”,
+“1961, Voorschoten. Na een zorgvuldige afweging besluit Jan toch niet met roken te beginnen.”,
+“1974, Munchen. ‘Munchen was mijn hoogtepunt’, zou Jan later zeggen over de verloren WK-finale die hij als bankzitter mocht meemaken.”,
+“1983, Breda. Na een teleurstellend seizoen als hoofdtrainer van NAC Breda opent Jan zijn eigen sigarenzaak in hartje Egmond aan de Hoef.”,
+"1962, Leidsch Medisch Centrum. Jan doorloopt voorspoedig het Seminarium, alleen onderbroken door een routine ingreep aan zijn blinde darm.",
+“1972, De Kongo. Missionaris Jan Stam steekt de Kongo over op zijn trouwe ros Zacharias.”,
+“Nairobi, 1985. Pater Stam introduceert de fiets op de Keniaanse hoogvlakte.”,
+“1968 Beverwijk. Jan begint zijn studie aan de academie voor botanie: “de Kweekschool”.”,
+“1976, Aalsmeer. Jan Stam verrast de internationale botanische wereld met de presentatie van zijn gestreepte theeroos.”,
+“1980, Stockholm. ‘Ik heb de bloemen zelf maar meegenomen, grapt Jan Stam tijdens de uitreiking van zijn eerste Nobelprijs.”,
+"1973, Egmond aan Zee. Anja verliest haar rechtervoet nadat Jan een shagje tussen haar tenen steekt.",
+“1980 Amsterdam. Jan ‘de Eeuwige Vrijgezel’ Stam debuteert met zijn bundel ‘Brandende Tenen’.”,
+“1974, Bergen. Jan Stam trouwt met Anja. Hij gaat bij deze gelegenheid gekleed in wat zich nog het best laat omschrijven als een ‘Maoistisch Partij-uniform’.”,
+“Alkmaar, 1984. De eerste echtelijke ruzie. Anja besluit op een flatje te gaan wonen.”, 
+“Tora Bora, Afghanistan, 2003. Jan ‘de Stam van Allah’ wordt ontmaskert als de 15e kaper.”,
+“Bergen, 1998. Tot ieders verbazing acht Jan de tijd rijp om zijn geluk in de muziek te zoeken.”,
+“Londen, 2007. John ‘Mosk’ Stam speelt samen met zijn ‘special girlfriend’ Britney Spears tegen Global Warming in Wembley Stadium.",
+“Alkmaar 1998-Heden. Een vredig huiselijk tafereeltje. De grote Smurf met zijn jongens en de meisjes.”,
+    “Den Oever 2007. Jan Stam, zes uur voor etappewinst in Middelstum.*/];
+
+const btn1 =document.getElementById("A1");
+const btn2 =document.getElementById("B2");
+const btn3 =document.getElementById("B3");
+const btn4 =document.getElementById("B4");
+const btn5 =document.getElementById("C5");
+const btn6 =document.getElementById("C6");
+const btn7 =document.getElementById("C7");
+const btn8 =document.getElementById("D8");
+const btn9 =document.getElementById("D9");
+const btn10 =document.getElementById("D10");
+const btn11 =document.getElementById("E11");
+const btn12 =document.getElementById("E12");
+const btn13 =document.getElementById("E13");
+const btn14 =document.getElementById("F14");
+const btn15 =document.getElementById("F15");
+const btn16 =document.getElementById("G16");
+const btn17 =document.getElementById("H17");
+const btn18 =document.getElementById("I18");
+const btn19 =document.getElementById("I19");
+const btn20 =document.getElementById("I20");
+const btn21 =document.getElementById("J21");
+const btn22 =document.getElementById("K22");
+        
+        const text= document.getElementById("text");
+    
+        btn1.addEventListener("click", function(){
+            document.getElementById("text").innerHTML=texts[0];
+        });
+        btn2.addEventListener("click", function(){
+            text.textContent=texts[1];
+        });
+        btn3.addEventListener("click", function(){
+            text.textContent=texts[2];
+        });
+        btn4.addEventListener("click", function(){
+            text.textContent=texts[3];
+        });
+        btn5.addEventListener("click", function(){
+            text.textContent=texts[4];
+        });
+        btn6.addEventListener("click", function(){
+            text.textContent=texts[5];
+        });
+        btn7.addEventListener("click", function(){
+            text.textContent=texts[6];
+        });
+        btn8.addEventListener("click", function(){
+            text.textContent=texts[7];
+        });
+        btn9.addEventListener("click", function(){
+            text.textContent=texts[8];
+        });
+        btn10.addEventListener("click", function(){
+            text.textContent=texts[9];
+        });
+        btn11.addEventListener("click", function(){
+            text.textContent=texts[10];
+        });
+        btn12.addEventListener("click", function(){
+            text.textContent=texts[11];
+        });
+        btn13.addEventListener("click", function(){
+            text.textContent=texts[12];
+        });
+        btn14.addEventListener("click", function(){
+            text.textContent=texts[13];
+        });
+        btn15.addEventListener("click", function(){
+            text.textContent=texts[14];
+        });
+        btn16.addEventListener("click", function(){
+            text.textContent=texts[15];
+        });
+        btn17.addEventListener("click", function(){
+            text.textContent=texts[16];
+        });
+        btn18.addEventListener("click", function(){
+            text.textContent=texts[17];
+        });
+        btn19.addEventListener("click", function(){
+            text.textContent=texts[18];
+        });
+        btn20.addEventListener("click", function(){
+            text.textContent=texts[19];
+        });
+        btn21.addEventListener("click", function(){
+            text.textContent=texts[20];
+        });
+        btn22.addEventListener("click", function(){
+            text.textContent=texts[21];
+        });
+    
+    </script>
+</body>
+
+</html>
+

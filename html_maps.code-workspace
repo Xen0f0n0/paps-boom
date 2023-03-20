@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../html_maps"
+		},
+		{
+			"path": "../html_css"
+		},
+		{
+			"path": "../html_java_tut"
+		},
+		{
+			"path": "../html_krita"
+		},
+		{
+			"path": "../../../../../../C++folder"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html_css"
+	}
+}
